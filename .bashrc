@@ -90,12 +90,13 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # Alias definitions.
-# You may want to put all your additions into a separate file like
-# ~/.bash_aliases, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
-
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
+fi
+
+# Function definitions.
+if [ -f ~/.bash_functions ]; then
+    . ~/.bash_functions
 fi
 
 # enable programmable completion features (you don't need to enable
@@ -114,40 +115,11 @@ fi
 export PATH=$PATH:/home/felix/Development/libs/play-2.2.3
 export PATH=$PATH:/home/felix/bin
 
-#functions
-dev() { cd ~/Development/$1; }
-sense() {
-	local SENSE_PATH=~/.data/sensors
-	while true; do sensors > $SENSE_PATH && sleep 5; done &
-	tail -fn50 $SENSE_PATH
-}
-
-live() {
-	local DATA_PATH=~/.data/temp
-	local HASH=$(echo $(date +%D%T)$1 | md5sum | cut -f1 -d" ")
-	local FILE_PATH=$DATA_PATH$HASH
-	local NUMS=$([ -z "$2" ] && echo "$2" || echo "50")
-
-	while true; do $1 > $FILE_PATH && sleep 5; done &
-	tail -fn$NUMS $FILE_PATH
-}
-
-bak() {
-	cp $1{,.BAK}
-}
-
-# aliases
-alias ssh-aws='ssh -i ~/Development/keys/aws-debian-main.pem admin@felixmilea.com'
-alias repi-ssh='ssh felix@dev.repiscore.com'
-alias repi-sshfs='sshfs felix@dev.repiscore.com:/ /home/felix/Development/sshfs/repiscore'
-alias si3='startx ~/.xsession-i3 &'
-
-alias i2pirc='su -c "irssi" i2p-user'
-
-alias clear='clear;echo STOP USING CLEAR;beep'
-alias record='dir=~/history/$(date +%Y/%m/%d);mkdir -p $dir && script -qf $dir/$(date +%F_%T)'
 
 setterm -blength 0
+
+# call above function to automatically fix mouse sensitivity
+fixmouse "USB Laser Game Mouse" 3
 
 # if in top level session, record entire bash session
 if [ $SHLVL -eq 1 ]; then
@@ -155,10 +127,5 @@ if [ $SHLVL -eq 1 ]; then
 	exit;
 fi
 
-# call above function to automatically fix mouse sensitivity
-fixmouse "USB Laser Game Mouse" 3
-
-echo ""
-
 # display date/time and calendar
-cal && date "+%D %T"
+echo ""; cal && date "+%D %T"
