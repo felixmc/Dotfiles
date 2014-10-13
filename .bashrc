@@ -118,7 +118,7 @@ export PATH=$PATH:/home/felix/bin
 
 setterm -blength 0
 
-# call above function to automatically fix mouse sensitivity
+# call function to automatically fix mouse sensitivity
 fixmouse "USB Laser Game Mouse" 3
 
 # if in top level session, record entire bash session
