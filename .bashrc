@@ -129,3 +129,6 @@ fi
 
 # display date/time and calendar
 echo ""; cal && date "+%D %T"
+
+source ~/.nvm/nvm.sh
+nvm use 0
