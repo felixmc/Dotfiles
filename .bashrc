@@ -115,6 +115,8 @@ fi
 export PATH=$PATH:/home/felix/Development/libs/play-2.2.3
 export PATH=$PATH:/home/felix/bin
 
+export WPP_DIR=/home/felix/Pictures/wallpapers/
+export MINECRAFT_HOME=/home/felix/.minecraft/
 
 setterm -blength 0
 
