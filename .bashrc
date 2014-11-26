@@ -99,6 +99,11 @@ if [ -f ~/.bash_functions ]; then
     . ~/.bash_functions
 fi
 
+# Var definitions.
+if [ -f ~/.bash_vars ]; then
+    . ~/.bash_vars
+fi
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -110,13 +115,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
 # path exports
 export PATH=$PATH:/home/felix/Development/libs/play-2.2.3
 export PATH=$PATH:/home/felix/bin
-
-export WPP_DIR=/home/felix/Pictures/wallpapers/
-export MINECRAFT_HOME=/home/felix/.minecraft/
 
 setterm -blength 0
 

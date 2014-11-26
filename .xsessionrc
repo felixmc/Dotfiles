@@ -1,0 +1,4 @@
+# Var definitions.
+if [ -f ~/.bash_vars ]; then
+	. ~/.bash_vars
+fi
