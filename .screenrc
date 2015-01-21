@@ -22,9 +22,9 @@ screen -t irc  1 irssi
 #"su -c 'irssi' i2p-user"
 split
 focus down
-screen -t htop  2 htop
-screen -t repl    3 node
-screen -t bash   4 bash
+screen -t htop  3 htop
+screen -t bash1  2 bash
+screen -t bash2  4 bash
 select 0
 bind c screen 1 # window numbering starts at 1 not 0
 bind 0 select 10
@@ -36,14 +36,14 @@ bind s split
 layout autosave on
 layout new four
 select 1
+split -v
 split
-split -v
-focus down
+focus right 
 select 2
-split -v
-focus right
+split
+focus down
 select 4
-focus up
+focus left
 select 3
 
 layout attach four

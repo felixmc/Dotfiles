@@ -119,11 +119,6 @@ fi
 # export PATH=$PATH:/home/felix/Development/libs/play-2.2.3
 export PATH=$PATH:/home/felix/bin
 
-setterm -blength 0
-
-# call function to automatically fix mouse sensitivity
-# fixmouse "USB Laser Game Mouse" 3
-
 # if in top level session, record entire bash session
 # if [ $SHLVL -eq 1 ]; then
 #	record;
@@ -132,6 +127,3 @@ setterm -blength 0
 
 # display date/time and calendar
 echo ""; cal && date "+%D %T"
-
-# source ~/.nvm/nvm.sh
-# nvm use 0

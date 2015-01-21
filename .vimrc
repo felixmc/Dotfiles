@@ -44,6 +44,9 @@ set guioptions-=T guioptions-=m
 set guioptions-=r
 set guioptions-=L
 
+map <silent> <F11>
+\    :call system("wmctrl -ir " . v:windowid . " -b toggle,fullscreen")<CR>
+
 set laststatus=2
 autocmd BufRead,BufNewFile /etc/nginx/sites-*/* setfiletype conf
 autocmd vimenter * NERDTree
@@ -64,6 +67,8 @@ set showcmd
 
 set smartindent
 set autoindent
+set tabstop=2 softtabstop=2 shiftwidth=2 noexpandtab
+set number
 
 set hlsearch
 
