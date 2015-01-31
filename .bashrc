@@ -57,9 +57,9 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n\$ '
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\n\$ '
 fi
 unset color_prompt force_color_prompt
 
@@ -127,3 +127,7 @@ export PATH=$PATH:/home/felix/bin
 
 # display date/time and calendar
 echo ""; cal && date "+%D %T"
+
+source ~/Development/code/bash/posh-git-sh/git-prompt.sh
+
+export PROMPT_COMMAND='__git_ps1 "\\[\e[01;32m\]\u@\h \[\e[01;34m\]\w" " \[\e[1;33m\]\n\$\[\e[0m\] ";'$PROMPT_COMMAND

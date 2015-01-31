@@ -40,7 +40,8 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " GUI options
-set guioptions-=T guioptions-=m
+set guioptions-=T
+set guioptions-=m
 set guioptions-=r
 set guioptions-=L
 
