@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="background_darkness" mtime="1421006436" type="float" value="0.90529197454452515"/>
+	<entry name="background_type" mtime="1421006436" type="string">
+		<stringvalue>transparent</stringvalue>
+	</entry>
+	<entry name="allow_bold" mtime="1421006436" type="bool" value="false"/>
+	<entry name="font" mtime="1421006436" type="string">
+		<stringvalue>Ubuntu Mono 13</stringvalue>
+	</entry>
+	<entry name="use_system_font" mtime="1421006436" type="bool" value="false"/>
+	<entry name="use_theme_background" mtime="1413167471" type="bool" value="false"/>
+	<entry name="use_theme_colors" mtime="1421006436" type="bool" value="false"/>
+	<entry name="bold_color_same_as_fg" mtime="1413167471" type="bool" value="true"/>
+	<entry name="bold_color" mtime="1421006436" type="string">
+		<stringvalue>#666666669999</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1421006436" type="string">
+		<stringvalue>#666666669999</stringvalue>
+	</entry>
+	<entry name="background_color" mtime="1421006436" type="string">
+		<stringvalue>#000000000000</stringvalue>
+	</entry>
+	<entry name="palette" mtime="1421006436" type="string">
+		<stringvalue>#333333336666:#66666666CCCC:#00009999CCCC:#33336666CCCC:#000066669999:#00006666FFFF:#666699999999:#9999CCCCCCCC:#333333339999:#99999999FFFF:#0000CCCCFFFF:#66669999FFFF:#00009999CCCC:#00009999FFFF:#6666CCCCCCCC:#CCCCFFFFFFFF</stringvalue>
+	</entry>
+	<entry name="visible_name" mtime="1421006436" type="string">
+		<stringvalue>terminal.sexy6</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="default_profile" mtime="1413169431" type="string">
+		<stringvalue>base-16-default-dark</stringvalue>
+	</entry>
+	<entry name="profile_list" mtime="1413169431" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>base-16-bright-dark</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>base-16-default-dark</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>Default</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>terminal-dot-sexy</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>terminal-dot-sexy2</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>terminal-dot-sexy3</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>terminal-dot-sexy6</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>Profile0</stringvalue>
+		</li>
+	</entry>
+</gconf>

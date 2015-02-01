@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="background_darkness" mtime="1421006436" type="float" value="0.86908102035522461"/>
+	<entry name="background_type" mtime="1421006436" type="string">
+		<stringvalue>transparent</stringvalue>
+	</entry>
+	<entry name="silent_bell" mtime="1421006436" type="bool" value="true"/>
+	<entry name="allow_bold" mtime="1413221455" type="bool" value="true"/>
+	<entry name="font" mtime="1421006436" type="string">
+		<stringvalue>Ubuntu Mono 13</stringvalue>
+	</entry>
+	<entry name="use_system_font" mtime="1421006436" type="bool" value="false"/>
+	<entry name="use_theme_background" mtime="1413160397" type="bool" value="false"/>
+	<entry name="use_theme_colors" mtime="1421006436" type="bool" value="false"/>
+	<entry name="bold_color_same_as_fg" mtime="1413160397" type="bool" value="true"/>
+	<entry name="bold_color" mtime="1421006436" type="string">
+		<stringvalue>#D0D0D0D0D0D0</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1421006436" type="string">
+		<stringvalue>#D0D0D0D0D0D0</stringvalue>
+	</entry>
+	<entry name="background_color" mtime="1421006436" type="string">
+		<stringvalue>#027817E41344</stringvalue>
+	</entry>
+	<entry name="palette" mtime="1421006436" type="string">
+		<stringvalue>#151515151515:#ACAC41414242:#9090A9A95959:#F4F4BFBF7575:#6A6A9F9FB5B5:#AAAA75759F9F:#7575B5B5AAAA:#D0D0D0D0D0D0:#505050505050:#ACAC41414242:#9090A9A95959:#F4F4BFBF7575:#6A6A9F9FB5B5:#AAAA75759F9F:#7575B5B5AAAA:#F5F5F5F5F5F5</stringvalue>
+	</entry>
+	<entry name="visible_name" mtime="1421006436" type="string">
+		<stringvalue>Base 16 Default Dark</stringvalue>
+	</entry>
+</gconf>

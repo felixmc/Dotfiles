@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="use_theme_background" mtime="1413160774" type="bool" value="false"/>
+	<entry name="use_theme_colors" mtime="1421006436" type="bool" value="false"/>
+	<entry name="bold_color_same_as_fg" mtime="1413160774" type="bool" value="true"/>
+	<entry name="bold_color" mtime="1421006436" type="string">
+		<stringvalue>#E0E0E0E0E0E0</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1421006436" type="string">
+		<stringvalue>#E0E0E0E0E0E0</stringvalue>
+	</entry>
+	<entry name="background_color" mtime="1421006436" type="string">
+		<stringvalue>#000000000000</stringvalue>
+	</entry>
+	<entry name="palette" mtime="1421006436" type="string">
+		<stringvalue>#000000000000:#FBFB01012020:#A1A1C6C65959:#FDFDA3A33131:#6F6FB3B3D2D2:#D3D38181C3C3:#7676C7C7B7B7:#E0E0E0E0E0E0:#B0B0B0B0B0B0:#FBFB01012020:#A1A1C6C65959:#FDFDA3A33131:#6F6FB3B3D2D2:#D3D38181C3C3:#7676C7C7B7B7:#FFFFFFFFFFFF</stringvalue>
+	</entry>
+	<entry name="visible_name" mtime="1421006436" type="string">
+		<stringvalue>Base 16 Bright Dark</stringvalue>
+	</entry>
+</gconf>

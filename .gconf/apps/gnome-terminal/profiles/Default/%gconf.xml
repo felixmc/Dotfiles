@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="allow_bold" mtime="1413168961" type="bool" value="true"/>
+	<entry name="bold_color_same_as_fg" mtime="1413146105" type="bool" value="true"/>
+	<entry name="background_darkness" mtime="1421006436" type="float" value="0.86211699247360229"/>
+	<entry name="background_type" mtime="1421006436" type="string">
+		<stringvalue>transparent</stringvalue>
+	</entry>
+	<entry name="use_custom_default_size" mtime="1403694804" type="bool" value="false"/>
+	<entry name="font" mtime="1421006436" type="string">
+		<stringvalue>Ubuntu Mono 13</stringvalue>
+	</entry>
+	<entry name="use_system_font" mtime="1421006436" type="bool" value="false"/>
+	<entry name="use_theme_colors" mtime="1421006436" type="bool" value="false"/>
+	<entry name="palette" mtime="1421006436" type="string">
+		<stringvalue>#000000000000:#CCCC00000000:#4E4E9A9A0606:#F5F579790000:#ADAD7F7FA8A8:#4E4E9A9A0606:#060698209A9A:#EDEDD4D40000:#555557575353:#EFEF29292929:#C3C330302727:#FCFCAFAF3E3E:#2626A9A98B8A:#8A8AE2E23434:#3434E2E2E2E2:#FCFCE9E94F4F</stringvalue>
+	</entry>
+	<entry name="background_color" mtime="1421006436" type="string">
+		<stringvalue>#000000000000</stringvalue>
+	</entry>
+	<entry name="visible_name" mtime="1421006436" type="string">
+		<stringvalue>Default</stringvalue>
+	</entry>
+	<entry name="bold_color" mtime="1421006436" type="string">
+		<stringvalue>#9393A1A1A1A1</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1421006436" type="string">
+		<stringvalue>#B4E7E94EFFFF</stringvalue>
+	</entry>
+</gconf>

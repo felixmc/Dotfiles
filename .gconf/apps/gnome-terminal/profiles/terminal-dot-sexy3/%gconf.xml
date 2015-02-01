@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="use_theme_background" mtime="1413167277" type="bool" value="false"/>
+	<entry name="use_theme_colors" mtime="1421006436" type="bool" value="false"/>
+	<entry name="bold_color_same_as_fg" mtime="1413167277" type="bool" value="true"/>
+	<entry name="bold_color" mtime="1421006436" type="string">
+		<stringvalue>#1C1C20202727</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1421006436" type="string">
+		<stringvalue>#D3D3EBEBE9E9</stringvalue>
+	</entry>
+	<entry name="background_color" mtime="1421006436" type="string">
+		<stringvalue>#08081F1E2D2D</stringvalue>
+	</entry>
+	<entry name="palette" mtime="1421006436" type="string">
+		<stringvalue>#191920203333:#A6A62A2A3E3E:#ADAD7F7FA8A8:#B2B27D7D1212:#D2D269693939:#7C7C4F4F9F9F:#25258F8F8F8F:#777785858C8C:#666666666666:#F0F047475858:#D2D269693939:#DDDDB6B62B2B:#4545A3A3E6E6:#C9C95353EFEF:#6060C6C6C8C8:#C0C0C0C0C0C0</stringvalue>
+	</entry>
+	<entry name="visible_name" mtime="1421006436" type="string">
+		<stringvalue>terminal.sexy3</stringvalue>
+	</entry>
+</gconf>
