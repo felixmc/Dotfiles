@@ -56,6 +56,9 @@ syntax enable
 set background=dark
 colorscheme gotham
 
+" disable error beep
+set vb t_vb=
+
 set guifont=UbuntuMono\ 13
 
 set ruler
