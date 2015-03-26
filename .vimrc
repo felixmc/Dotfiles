@@ -78,5 +78,5 @@ set wildmenu
 
 imap jj <esc>
 inoremap gg <c-o>:w<cr>
-inoremap ff <esc>:w<cr>
+inoremap vv <esc>:w<cr>
 imap <C-Space> <C-X><C-O>
