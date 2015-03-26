@@ -1,5 +1,5 @@
 export MINECRAFT_HOME=/home/felix/.minecraft/
-export WPP_DIR=/home/felix/Pictures/wallpapers/
+export WPP_DIR=/home/felix/Dropbox/Wallpapers/
 
 # set PATH to include private bin if it exists
 if [ -d "$HOME/bin" ] ; then

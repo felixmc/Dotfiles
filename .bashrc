@@ -116,8 +116,8 @@ if ! shopt -oq posix; then
 fi
 
 # path exports
-# export PATH=$PATH:/home/felix/Development/libs/play-2.2.3
 export PATH=$PATH:/home/felix/bin
+export PATH=$PATH:$HOME/.opam/system/bin
 
 # if in top level session, record entire bash session
 # if [ $SHLVL -eq 1 ]; then

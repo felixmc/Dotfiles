@@ -1,12 +1,15 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="color" mtime="1416815778" type="string">
-		<stringvalue>#d0d0d0d0d0d0</stringvalue>
+	<entry name="bold" mtime="1426480981" type="string">
+		<stringvalue>#000000000000</stringvalue>
+	</entry>
+	<entry name="color" mtime="1426481943" type="string">
+		<stringvalue>#d3d3ebebe9e9</stringvalue>
 	</entry>
 	<entry name="style" mtime="1412808527" type="string">
 		<stringvalue>Ubuntu Mono 13</stringvalue>
 	</entry>
-	<entry name="palette" mtime="1416815988" type="string">
-		<stringvalue>#151515151515:#acac41414242:#9090a9a95959:#f4f4bfbf7575:#6a6a9f9fb5b5:#aaaa75759f9f:#7575b5b5aaaa:#d0d0d0d0d0d0:#505050505050:#acac41414242:#9090a9a95959:#f4f4bfbf7575:#6a6a9f9fb5b5:#aaaa75759f9f:#7575b5b5aaaa:#f5f5f5f5f5f5</stringvalue>
+	<entry name="palette" mtime="1426482568" type="string">
+		<stringvalue>#0c0c10101414:#c2c231312727:#16e9642e512c:#ededb4b44343:#191954546666:#4e4e51516666:#333385859e9e:#9999d1d1cece:#111115151c1c:#d2d269693737:#2a2aa8a88989:#242453536161:#000055c2780f:#88888c8ca6a6:#59599c9cabab:#d3d3ebebe9e9</stringvalue>
 	</entry>
 </gconf>
