@@ -9,7 +9,7 @@
 	</entry>
 	<entry name="window_halignment" mtime="1426482562" type="int" value="0"/>
 	<entry name="window_width" mtime="1426482562" type="int" value="100"/>
-	<entry name="window_height" mtime="1426582592" type="int" value="92"/>
+	<entry name="window_height" mtime="1427909267" type="int" value="90"/>
 	<entry name="compat_delete" mtime="1426482562" type="string">
 		<stringvalue>delete-sequence</stringvalue>
 	</entry>

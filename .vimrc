@@ -25,6 +25,7 @@ Plugin 'marijnh/tern_for_vim'
 Plugin 'elzr/vim-json'
 Plugin 'gregsexton/MatchTag'
 Plugin 'othree/html5.vim'
+Plugin 'majutsushi/tagbar'
 
 " All of Plugins must be added before the following line
 call vundle#end()            " required
@@ -56,8 +57,9 @@ syntax enable
 set background=dark
 colorscheme gotham
 
-" disable error beep
-set vb t_vb=
+" disable error beep/flash
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
 
 set guifont=UbuntuMono\ 13
 
@@ -83,3 +85,4 @@ imap jj <esc>
 inoremap gg <c-o>:w<cr>
 inoremap vv <esc>:w<cr>
 imap <C-Space> <C-X><C-O>
+nmap <F8> :TagbarToggle<CR
